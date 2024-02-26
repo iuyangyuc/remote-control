@@ -13,7 +13,7 @@ public class RemoteLoader implements  IRemoteLoader{
 
     private static RemoteLoader RemoteLodarInstance;
 
-    public RemoteLoader() { }
+    private RemoteLoader() { }
 
     public static RemoteLoader getInstance() {
         if (RemoteLodarInstance == null) {
